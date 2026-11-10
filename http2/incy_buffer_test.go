@@ -1,3 +1,5 @@
+//go:build !(go1.27 && !http2legacy)
+
 package http2
 
 import "testing"
